@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx:missing
+      - image: nginx:latest
         name: nginx
 
 ---
