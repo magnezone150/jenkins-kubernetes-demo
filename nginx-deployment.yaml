@@ -18,13 +18,13 @@ spec:
       containers:
       - image: nginx:latest
         name: nginx
-         resources:
-           requests:
-             memory: "128Mi"
-             cpu: "2m"
-           limits:
-             memory: "250Mi"
-             cpu: "5m"
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "2m"
+          limits:
+            memory: "250Mi"
+            cpu: "5m"
 
 ---
 apiVersion: v1
